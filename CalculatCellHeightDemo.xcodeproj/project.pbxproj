@@ -13,6 +13,40 @@
 		CF81252D1F7CEE1700BA56C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF81252C1F7CEE1700BA56C4 /* Assets.xcassets */; };
 		CF8125301F7CEE1700BA56C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF81252E1F7CEE1700BA56C4 /* LaunchScreen.storyboard */; };
 		CF8125331F7CEE1700BA56C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125321F7CEE1700BA56C4 /* main.m */; };
+		CF8125731F7CEEC900BA56C4 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF81253A1F7CEEC800BA56C4 /* data.plist */; };
+		CF8125741F7CEEC900BA56C4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81253D1F7CEEC800BA56C4 /* UIView+Frame.m */; };
+		CF8125751F7CEEC900BA56C4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81253F1F7CEEC800BA56C4 /* Utils.m */; };
+		CF8125761F7CEEC900BA56C4 /* SaveHeightWithModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125421F7CEEC800BA56C4 /* SaveHeightWithModelController.m */; };
+		CF8125771F7CEEC900BA56C4 /* SaveHeightWithStaticValueController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125441F7CEEC800BA56C4 /* SaveHeightWithStaticValueController.m */; };
+		CF8125781F7CEEC900BA56C4 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125481F7CEEC800BA56C4 /* MJExtensionConst.m */; };
+		CF8125791F7CEEC900BA56C4 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81254A1F7CEEC800BA56C4 /* MJFoundation.m */; };
+		CF81257A1F7CEEC900BA56C4 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81254C1F7CEEC800BA56C4 /* MJProperty.m */; };
+		CF81257B1F7CEEC900BA56C4 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81254E1F7CEEC800BA56C4 /* MJPropertyKey.m */; };
+		CF81257C1F7CEEC900BA56C4 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125501F7CEEC800BA56C4 /* MJPropertyType.m */; };
+		CF81257D1F7CEEC900BA56C4 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125521F7CEEC800BA56C4 /* NSObject+MJClass.m */; };
+		CF81257E1F7CEEC900BA56C4 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125541F7CEEC800BA56C4 /* NSObject+MJCoding.m */; };
+		CF81257F1F7CEEC900BA56C4 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125561F7CEEC800BA56C4 /* NSObject+MJKeyValue.m */; };
+		CF8125801F7CEEC900BA56C4 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125581F7CEEC800BA56C4 /* NSObject+MJProperty.m */; };
+		CF8125811F7CEEC900BA56C4 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81255A1F7CEEC800BA56C4 /* NSString+MJExtension.m */; };
+		CF8125821F7CEEC900BA56C4 /* TTS_voice_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81255C1F7CEEC900BA56C4 /* TTS_voice_1.png */; };
+		CF8125831F7CEEC900BA56C4 /* TTS_voice_10.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81255D1F7CEEC900BA56C4 /* TTS_voice_10.png */; };
+		CF8125841F7CEEC900BA56C4 /* TTS_voice_11.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81255E1F7CEEC900BA56C4 /* TTS_voice_11.png */; };
+		CF8125851F7CEEC900BA56C4 /* TTS_voice_12.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81255F1F7CEEC900BA56C4 /* TTS_voice_12.png */; };
+		CF8125861F7CEEC900BA56C4 /* TTS_voice_13.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125601F7CEEC900BA56C4 /* TTS_voice_13.png */; };
+		CF8125871F7CEEC900BA56C4 /* TTS_voice_14.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125611F7CEEC900BA56C4 /* TTS_voice_14.png */; };
+		CF8125881F7CEEC900BA56C4 /* TTS_voice_15.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125621F7CEEC900BA56C4 /* TTS_voice_15.png */; };
+		CF8125891F7CEEC900BA56C4 /* TTS_voice_16.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125631F7CEEC900BA56C4 /* TTS_voice_16.png */; };
+		CF81258A1F7CEEC900BA56C4 /* TTS_voice_17.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125641F7CEEC900BA56C4 /* TTS_voice_17.png */; };
+		CF81258B1F7CEEC900BA56C4 /* TTS_voice_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125651F7CEEC900BA56C4 /* TTS_voice_2.png */; };
+		CF81258C1F7CEEC900BA56C4 /* TTS_voice_3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125661F7CEEC900BA56C4 /* TTS_voice_3.png */; };
+		CF81258D1F7CEEC900BA56C4 /* TTS_voice_4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125671F7CEEC900BA56C4 /* TTS_voice_4.png */; };
+		CF81258E1F7CEEC900BA56C4 /* TTS_voice_5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125681F7CEEC900BA56C4 /* TTS_voice_5.png */; };
+		CF81258F1F7CEEC900BA56C4 /* TTS_voice_6.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8125691F7CEEC900BA56C4 /* TTS_voice_6.png */; };
+		CF8125901F7CEEC900BA56C4 /* TTS_voice_7.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81256A1F7CEEC900BA56C4 /* TTS_voice_7.png */; };
+		CF8125911F7CEEC900BA56C4 /* TTS_voice_8.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81256B1F7CEEC900BA56C4 /* TTS_voice_8.png */; };
+		CF8125921F7CEEC900BA56C4 /* TTS_voice_9.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81256C1F7CEEC900BA56C4 /* TTS_voice_9.png */; };
+		CF8125931F7CEEC900BA56C4 /* WorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81256F1F7CEEC900BA56C4 /* WorkModel.m */; };
+		CF8125941F7CEEC900BA56C4 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125721F7CEEC900BA56C4 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +60,58 @@
 		CF81252F1F7CEE1700BA56C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8125311F7CEE1700BA56C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8125321F7CEE1700BA56C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF81253A1F7CEEC800BA56C4 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		CF81253B1F7CEEC800BA56C4 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		CF81253C1F7CEEC800BA56C4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CF81253D1F7CEEC800BA56C4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CF81253E1F7CEEC800BA56C4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		CF81253F1F7CEEC800BA56C4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		CF8125411F7CEEC800BA56C4 /* SaveHeightWithModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveHeightWithModelController.h; sourceTree = "<group>"; };
+		CF8125421F7CEEC800BA56C4 /* SaveHeightWithModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveHeightWithModelController.m; sourceTree = "<group>"; };
+		CF8125431F7CEEC800BA56C4 /* SaveHeightWithStaticValueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveHeightWithStaticValueController.h; sourceTree = "<group>"; };
+		CF8125441F7CEEC800BA56C4 /* SaveHeightWithStaticValueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveHeightWithStaticValueController.m; sourceTree = "<group>"; };
+		CF8125461F7CEEC800BA56C4 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		CF8125471F7CEEC800BA56C4 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		CF8125481F7CEEC800BA56C4 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		CF8125491F7CEEC800BA56C4 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		CF81254A1F7CEEC800BA56C4 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		CF81254B1F7CEEC800BA56C4 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		CF81254C1F7CEEC800BA56C4 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		CF81254D1F7CEEC800BA56C4 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		CF81254E1F7CEEC800BA56C4 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		CF81254F1F7CEEC800BA56C4 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		CF8125501F7CEEC800BA56C4 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		CF8125511F7CEEC800BA56C4 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		CF8125521F7CEEC800BA56C4 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		CF8125531F7CEEC800BA56C4 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		CF8125541F7CEEC800BA56C4 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		CF8125551F7CEEC800BA56C4 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		CF8125561F7CEEC800BA56C4 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		CF8125571F7CEEC800BA56C4 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		CF8125581F7CEEC800BA56C4 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		CF8125591F7CEEC800BA56C4 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		CF81255A1F7CEEC800BA56C4 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		CF81255C1F7CEEC900BA56C4 /* TTS_voice_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_1.png; sourceTree = "<group>"; };
+		CF81255D1F7CEEC900BA56C4 /* TTS_voice_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_10.png; sourceTree = "<group>"; };
+		CF81255E1F7CEEC900BA56C4 /* TTS_voice_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_11.png; sourceTree = "<group>"; };
+		CF81255F1F7CEEC900BA56C4 /* TTS_voice_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_12.png; sourceTree = "<group>"; };
+		CF8125601F7CEEC900BA56C4 /* TTS_voice_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_13.png; sourceTree = "<group>"; };
+		CF8125611F7CEEC900BA56C4 /* TTS_voice_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_14.png; sourceTree = "<group>"; };
+		CF8125621F7CEEC900BA56C4 /* TTS_voice_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_15.png; sourceTree = "<group>"; };
+		CF8125631F7CEEC900BA56C4 /* TTS_voice_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_16.png; sourceTree = "<group>"; };
+		CF8125641F7CEEC900BA56C4 /* TTS_voice_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_17.png; sourceTree = "<group>"; };
+		CF8125651F7CEEC900BA56C4 /* TTS_voice_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_2.png; sourceTree = "<group>"; };
+		CF8125661F7CEEC900BA56C4 /* TTS_voice_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_3.png; sourceTree = "<group>"; };
+		CF8125671F7CEEC900BA56C4 /* TTS_voice_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_4.png; sourceTree = "<group>"; };
+		CF8125681F7CEEC900BA56C4 /* TTS_voice_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_5.png; sourceTree = "<group>"; };
+		CF8125691F7CEEC900BA56C4 /* TTS_voice_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_6.png; sourceTree = "<group>"; };
+		CF81256A1F7CEEC900BA56C4 /* TTS_voice_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_7.png; sourceTree = "<group>"; };
+		CF81256B1F7CEEC900BA56C4 /* TTS_voice_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_8.png; sourceTree = "<group>"; };
+		CF81256C1F7CEEC900BA56C4 /* TTS_voice_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTS_voice_9.png; sourceTree = "<group>"; };
+		CF81256E1F7CEEC900BA56C4 /* WorkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkModel.h; sourceTree = "<group>"; };
+		CF81256F1F7CEEC900BA56C4 /* WorkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkModel.m; sourceTree = "<group>"; };
+		CF8125711F7CEEC900BA56C4 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CF8125721F7CEEC900BA56C4 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +148,12 @@
 				CF8125241F7CEE1700BA56C4 /* AppDelegate.m */,
 				CF8125261F7CEE1700BA56C4 /* ViewController.h */,
 				CF8125271F7CEE1700BA56C4 /* ViewController.m */,
+				CF81255B1F7CEEC900BA56C4 /* Images */,
+				CF8125451F7CEEC800BA56C4 /* MJExtension */,
+				CF81256D1F7CEEC900BA56C4 /* Model */,
+				CF8125391F7CEEC800BA56C4 /* Other */,
+				CF8125701F7CEEC900BA56C4 /* View */,
+				CF8125401F7CEEC800BA56C4 /* ViewController */,
 				CF8125291F7CEE1700BA56C4 /* Main.storyboard */,
 				CF81252C1F7CEE1700BA56C4 /* Assets.xcassets */,
 				CF81252E1F7CEE1700BA56C4 /* LaunchScreen.storyboard */,
@@ -69,6 +161,100 @@
 				CF8125321F7CEE1700BA56C4 /* main.m */,
 			);
 			path = CalculatCellHeightDemo;
+			sourceTree = "<group>";
+		};
+		CF8125391F7CEEC800BA56C4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CF81253A1F7CEEC800BA56C4 /* data.plist */,
+				CF81253B1F7CEEC800BA56C4 /* Defines.h */,
+				CF81253C1F7CEEC800BA56C4 /* UIView+Frame.h */,
+				CF81253D1F7CEEC800BA56C4 /* UIView+Frame.m */,
+				CF81253E1F7CEEC800BA56C4 /* Utils.h */,
+				CF81253F1F7CEEC800BA56C4 /* Utils.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CF8125401F7CEEC800BA56C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF8125411F7CEEC800BA56C4 /* SaveHeightWithModelController.h */,
+				CF8125421F7CEEC800BA56C4 /* SaveHeightWithModelController.m */,
+				CF8125431F7CEEC800BA56C4 /* SaveHeightWithStaticValueController.h */,
+				CF8125441F7CEEC800BA56C4 /* SaveHeightWithStaticValueController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CF8125451F7CEEC800BA56C4 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CF8125461F7CEEC800BA56C4 /* MJExtension.h */,
+				CF8125471F7CEEC800BA56C4 /* MJExtensionConst.h */,
+				CF8125481F7CEEC800BA56C4 /* MJExtensionConst.m */,
+				CF8125491F7CEEC800BA56C4 /* MJFoundation.h */,
+				CF81254A1F7CEEC800BA56C4 /* MJFoundation.m */,
+				CF81254B1F7CEEC800BA56C4 /* MJProperty.h */,
+				CF81254C1F7CEEC800BA56C4 /* MJProperty.m */,
+				CF81254D1F7CEEC800BA56C4 /* MJPropertyKey.h */,
+				CF81254E1F7CEEC800BA56C4 /* MJPropertyKey.m */,
+				CF81254F1F7CEEC800BA56C4 /* MJPropertyType.h */,
+				CF8125501F7CEEC800BA56C4 /* MJPropertyType.m */,
+				CF8125511F7CEEC800BA56C4 /* NSObject+MJClass.h */,
+				CF8125521F7CEEC800BA56C4 /* NSObject+MJClass.m */,
+				CF8125531F7CEEC800BA56C4 /* NSObject+MJCoding.h */,
+				CF8125541F7CEEC800BA56C4 /* NSObject+MJCoding.m */,
+				CF8125551F7CEEC800BA56C4 /* NSObject+MJKeyValue.h */,
+				CF8125561F7CEEC800BA56C4 /* NSObject+MJKeyValue.m */,
+				CF8125571F7CEEC800BA56C4 /* NSObject+MJProperty.h */,
+				CF8125581F7CEEC800BA56C4 /* NSObject+MJProperty.m */,
+				CF8125591F7CEEC800BA56C4 /* NSString+MJExtension.h */,
+				CF81255A1F7CEEC800BA56C4 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		CF81255B1F7CEEC900BA56C4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF81255C1F7CEEC900BA56C4 /* TTS_voice_1.png */,
+				CF81255D1F7CEEC900BA56C4 /* TTS_voice_10.png */,
+				CF81255E1F7CEEC900BA56C4 /* TTS_voice_11.png */,
+				CF81255F1F7CEEC900BA56C4 /* TTS_voice_12.png */,
+				CF8125601F7CEEC900BA56C4 /* TTS_voice_13.png */,
+				CF8125611F7CEEC900BA56C4 /* TTS_voice_14.png */,
+				CF8125621F7CEEC900BA56C4 /* TTS_voice_15.png */,
+				CF8125631F7CEEC900BA56C4 /* TTS_voice_16.png */,
+				CF8125641F7CEEC900BA56C4 /* TTS_voice_17.png */,
+				CF8125651F7CEEC900BA56C4 /* TTS_voice_2.png */,
+				CF8125661F7CEEC900BA56C4 /* TTS_voice_3.png */,
+				CF8125671F7CEEC900BA56C4 /* TTS_voice_4.png */,
+				CF8125681F7CEEC900BA56C4 /* TTS_voice_5.png */,
+				CF8125691F7CEEC900BA56C4 /* TTS_voice_6.png */,
+				CF81256A1F7CEEC900BA56C4 /* TTS_voice_7.png */,
+				CF81256B1F7CEEC900BA56C4 /* TTS_voice_8.png */,
+				CF81256C1F7CEEC900BA56C4 /* TTS_voice_9.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF81256D1F7CEEC900BA56C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF81256E1F7CEEC900BA56C4 /* WorkModel.h */,
+				CF81256F1F7CEEC900BA56C4 /* WorkModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF8125701F7CEEC900BA56C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF8125711F7CEEC900BA56C4 /* CustomCell.h */,
+				CF8125721F7CEEC900BA56C4 /* CustomCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +316,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8125301F7CEE1700BA56C4 /* LaunchScreen.storyboard in Resources */,
+				CF8125921F7CEEC900BA56C4 /* TTS_voice_9.png in Resources */,
+				CF81258F1F7CEEC900BA56C4 /* TTS_voice_6.png in Resources */,
+				CF81258B1F7CEEC900BA56C4 /* TTS_voice_2.png in Resources */,
+				CF81258E1F7CEEC900BA56C4 /* TTS_voice_5.png in Resources */,
 				CF81252D1F7CEE1700BA56C4 /* Assets.xcassets in Resources */,
+				CF8125911F7CEEC900BA56C4 /* TTS_voice_8.png in Resources */,
+				CF81258A1F7CEEC900BA56C4 /* TTS_voice_17.png in Resources */,
+				CF8125861F7CEEC900BA56C4 /* TTS_voice_13.png in Resources */,
+				CF81258D1F7CEEC900BA56C4 /* TTS_voice_4.png in Resources */,
+				CF8125841F7CEEC900BA56C4 /* TTS_voice_11.png in Resources */,
+				CF8125881F7CEEC900BA56C4 /* TTS_voice_15.png in Resources */,
+				CF8125891F7CEEC900BA56C4 /* TTS_voice_16.png in Resources */,
+				CF8125901F7CEEC900BA56C4 /* TTS_voice_7.png in Resources */,
+				CF8125821F7CEEC900BA56C4 /* TTS_voice_1.png in Resources */,
+				CF8125731F7CEEC900BA56C4 /* data.plist in Resources */,
+				CF81258C1F7CEEC900BA56C4 /* TTS_voice_3.png in Resources */,
+				CF8125851F7CEEC900BA56C4 /* TTS_voice_12.png in Resources */,
 				CF81252B1F7CEE1700BA56C4 /* Main.storyboard in Resources */,
+				CF8125831F7CEEC900BA56C4 /* TTS_voice_10.png in Resources */,
+				CF8125871F7CEEC900BA56C4 /* TTS_voice_14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +346,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF81257E1F7CEEC900BA56C4 /* NSObject+MJCoding.m in Sources */,
+				CF8125781F7CEEC900BA56C4 /* MJExtensionConst.m in Sources */,
+				CF81257D1F7CEEC900BA56C4 /* NSObject+MJClass.m in Sources */,
+				CF81257B1F7CEEC900BA56C4 /* MJPropertyKey.m in Sources */,
+				CF8125741F7CEEC900BA56C4 /* UIView+Frame.m in Sources */,
 				CF8125281F7CEE1700BA56C4 /* ViewController.m in Sources */,
+				CF81257A1F7CEEC900BA56C4 /* MJProperty.m in Sources */,
+				CF8125791F7CEEC900BA56C4 /* MJFoundation.m in Sources */,
 				CF8125331F7CEE1700BA56C4 /* main.m in Sources */,
+				CF8125751F7CEEC900BA56C4 /* Utils.m in Sources */,
 				CF8125251F7CEE1700BA56C4 /* AppDelegate.m in Sources */,
+				CF81257C1F7CEEC900BA56C4 /* MJPropertyType.m in Sources */,
+				CF8125761F7CEEC900BA56C4 /* SaveHeightWithModelController.m in Sources */,
+				CF81257F1F7CEEC900BA56C4 /* NSObject+MJKeyValue.m in Sources */,
+				CF8125811F7CEEC900BA56C4 /* NSString+MJExtension.m in Sources */,
+				CF8125941F7CEEC900BA56C4 /* CustomCell.m in Sources */,
+				CF8125771F7CEEC900BA56C4 /* SaveHeightWithStaticValueController.m in Sources */,
+				CF8125931F7CEEC900BA56C4 /* WorkModel.m in Sources */,
+				CF8125801F7CEEC900BA56C4 /* NSObject+MJProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

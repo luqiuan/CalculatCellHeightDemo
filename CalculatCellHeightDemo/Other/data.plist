@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_1</string>
+			<key>namestring</key>
+			<string>《念奴娇 赤壁怀古》</string>
+			<key>descrip</key>
+			<string>大江东去，浪淘尽，千古风流人物。
+故垒西边，人道是，三国周郎赤壁。
+乱石穿空，惊涛拍岸，卷起千堆雪。
+江山如画，一时多少豪杰。
+遥想公瑾当年，小乔初嫁了，雄姿英发。
+羽扇纶巾，谈笑间，樯橹灰飞烟灭。(樯橹 一作：强掳)
+故国神游，多情应笑我，早生华发。
+人生如梦，一尊还酹江月</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_2</string>
+			<key>namestring</key>
+			<string>《水调歌头·明月几时有》</string>
+			<key>descrip</key>
+			<string>明月几时有，把酒问青天。
+不知天上宫阙，今夕是何年？
+我欲乘风归去，又恐琼楼玉宇，
+高处不胜寒。
+起舞弄清影，何似在人间！
+
+转朱阁，低绮户，照无眠。
+不应有恨，何事长向别时圆？
+人有悲欢离合，月有阴晴圆缺，
+此事古难全。
+但愿人长久，千里共婵娟。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_3</string>
+			<key>namestring</key>
+			<string>《定风波·莫听穿林打叶声》</string>
+			<key>descrip</key>
+			<string>莫听穿林打叶声，何妨吟啸且徐行。
+竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
+
+料峭春风吹酒醒，微冷，山头斜照却相迎。
+回首向来萧瑟处，归去，也无风雨也无晴。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_4</string>
+			<key>namestring</key>
+			<string>《蝶恋花·春事阑珊芳草歇》</string>
+			<key>descrip</key>
+			<string>春事阑珊芳草歇。客里风光，又过清明节。小院黄昏人忆别。落红处处闻啼鴂。咫尺江山分楚越。目断魂销，应是音尘绝。梦破五更心欲折。角声吹落梅花月。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_5</string>
+			<key>namestring</key>
+			<string>《题西林壁》</string>
+			<key>descrip</key>
+			<string>横看成岭侧成峰，远近高低各不同。
+不识庐山真面目，只缘身在此山中。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_6</string>
+			<key>namestring</key>
+			<string>江城子·密州出猎</string>
+			<key>descrip</key>
+			<string>老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。酒酣胸胆尚开张，鬓微霜，又何妨？持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_7</string>
+			<key>namestring</key>
+			<string>卜算子·黄州定慧院寓居作</string>
+			<key>descrip</key>
+			<string>缺月挂疏桐，漏断人初静。时见幽人独往来，缥缈孤鸿影。
+惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_8</string>
+			<key>namestring</key>
+			<string>蝶恋花·春景</string>
+			<key>descrip</key>
+			<string>花褪残红青杏小。燕子飞时，绿水人家绕。枝上柳绵吹又少，天涯何处无芳草！
+墙里秋千墙外道。墙外行人，墙里佳人笑。笑渐不闻声渐悄，多情却被无情恼。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_9</string>
+			<key>namestring</key>
+			<string>卜算子·黄州定慧院寓居作_赏析</string>
+			<key>descrip</key>
+			<string>檐下的花儿静静开，夜风似影久等在门外，残月独挂在窗台，将回忆映白，问：有谁与我同在？繁华的尘埃落下来，喧嚣散去忘记了悲哀，用一生等待，命运可有安排？还有几世的无奈。夜深人静、月挂疏桐，步出庭院，抬头望月，又是一个孤寂的夜晚，一个人孤独的时候，总会满然四顾的寻觅，找到的只是更多的孤独，夜里冷寒的，不止是沙洲和寒枝。不多加点评了，大家自己细细的品味吧！最好能把苏轼当时所处的自然和社会环境都考虑进去</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_10</string>
+			<key>namestring</key>
+			<string>江城子</string>
+			<key>descrip</key>
+			<string>十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。
+夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_11</string>
+			<key>namestring</key>
+			<string>行香子·秋与</string>
+			<key>descrip</key>
+			<string>昨夜霜风。先入梧桐。浑无处、回避衰容。问公何事，不语书空。但一回醉一回病，一回慵；
+朝来庭下，光阴如箭，似无言、有意伤侬。都将万事，付与千钟。任酒花白，眼花乱，烛花红。
+日落黄昏，入夜的风带着霜一般的冰凉，直入骨髓，映衬出苏老仕途上的几度浮沉，以及命运的无常与多舛，在哀叹人事、岁月变迁的同时，苏老也无可奈何，他只有醉酒浇愁，大病一场，懒惰一回，才能把郁结于心中的愁绪渐渐消解。早晨起后，来到庭院中，突感光阴飞逝，各种过往像演电影一样再次涌入心头，真是剪不断理还乱，才下眉头又上心头，罢了，还是接着喝酒吧，眼睛迷蒙后，看着昨夜未熄的蜡烛跳动的火焰也是越来越红了，联想到自己的红尘不归路似乎也不远了。此时，曾经恃才傲物的才子在风中开始回望自己的一生，他的内心褪去了才子的傲然，人世的浮华，转而进入了一种平和和宁静之中。人活一世，我们最终给这个世界又留下了什么呢？苏轼写情诗，真的是能把人的心写碎，而且还让人在感叹自我人生的同时，不由地对生命、宇宙发出形而上的诘问</string>
+		</dict>
+		<dict>
+			<key>imagename</key>
+			<string>TTS_voice_12</string>
+			<key>namestring</key>
+			<string>记承天寺夜游</string>
+			<key>descrip</key>
+			<string>　元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻、荇（xìng）交横（héng），盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。</string>
+		</dict>
+	</array>
+</dict>
+</plist>

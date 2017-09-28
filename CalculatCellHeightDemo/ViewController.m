@@ -7,22 +7,37 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "Defines.h"
+#import "SaveHeightWithModelController.h"
+#import "SaveHeightWithStaticValueController.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *title = @[@"使用model保存动态高度",@"使用静态变量保存高度"];
+    for (int i = 0; i < 2; i ++) {
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 200)/2, 100 + 50 * i, 200, 40)];
+        [button setTitle:title[i] forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        button.tag = i;
+        [button addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchDown];
+        [self.view addSubview:button];
+    }
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)action:(UIButton *)sender{
+    UIViewController *VC;
+    if (sender.tag == 0) {
+        VC = [[SaveHeightWithModelController alloc] init];
+    }
+    else{
+        VC = [[SaveHeightWithStaticValueController alloc] init];
+    }
+    [self presentViewController:VC animated:YES completion:^{
+        
+    }];
 }
 
 
