@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8125251F7CEE1700BA56C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125241F7CEE1700BA56C4 /* AppDelegate.m */; };
+		CF8125281F7CEE1700BA56C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125271F7CEE1700BA56C4 /* ViewController.m */; };
+		CF81252B1F7CEE1700BA56C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8125291F7CEE1700BA56C4 /* Main.storyboard */; };
+		CF81252D1F7CEE1700BA56C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF81252C1F7CEE1700BA56C4 /* Assets.xcassets */; };
+		CF8125301F7CEE1700BA56C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF81252E1F7CEE1700BA56C4 /* LaunchScreen.storyboard */; };
+		CF8125331F7CEE1700BA56C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8125321F7CEE1700BA56C4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF8125201F7CEE1700BA56C4 /* CalculatCellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatCellHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8125231F7CEE1700BA56C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF8125241F7CEE1700BA56C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF8125261F7CEE1700BA56C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF8125271F7CEE1700BA56C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF81252A1F7CEE1700BA56C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF81252C1F7CEE1700BA56C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF81252F1F7CEE1700BA56C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8125311F7CEE1700BA56C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8125321F7CEE1700BA56C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF81251D1F7CEE1700BA56C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8125171F7CEE1700BA56C4 = {
+			isa = PBXGroup;
+			children = (
+				CF8125221F7CEE1700BA56C4 /* CalculatCellHeightDemo */,
+				CF8125211F7CEE1700BA56C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8125211F7CEE1700BA56C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8125201F7CEE1700BA56C4 /* CalculatCellHeightDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8125221F7CEE1700BA56C4 /* CalculatCellHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF8125231F7CEE1700BA56C4 /* AppDelegate.h */,
+				CF8125241F7CEE1700BA56C4 /* AppDelegate.m */,
+				CF8125261F7CEE1700BA56C4 /* ViewController.h */,
+				CF8125271F7CEE1700BA56C4 /* ViewController.m */,
+				CF8125291F7CEE1700BA56C4 /* Main.storyboard */,
+				CF81252C1F7CEE1700BA56C4 /* Assets.xcassets */,
+				CF81252E1F7CEE1700BA56C4 /* LaunchScreen.storyboard */,
+				CF8125311F7CEE1700BA56C4 /* Info.plist */,
+				CF8125321F7CEE1700BA56C4 /* main.m */,
+			);
+			path = CalculatCellHeightDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF81251F1F7CEE1700BA56C4 /* CalculatCellHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8125361F7CEE1700BA56C4 /* Build configuration list for PBXNativeTarget "CalculatCellHeightDemo" */;
+			buildPhases = (
+				CF81251C1F7CEE1700BA56C4 /* Sources */,
+				CF81251D1F7CEE1700BA56C4 /* Frameworks */,
+				CF81251E1F7CEE1700BA56C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatCellHeightDemo;
+			productName = CalculatCellHeightDemo;
+			productReference = CF8125201F7CEE1700BA56C4 /* CalculatCellHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8125181F7CEE1700BA56C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = luqiuan;
+				TargetAttributes = {
+					CF81251F1F7CEE1700BA56C4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF81251B1F7CEE1700BA56C4 /* Build configuration list for PBXProject "CalculatCellHeightDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8125171F7CEE1700BA56C4;
+			productRefGroup = CF8125211F7CEE1700BA56C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF81251F1F7CEE1700BA56C4 /* CalculatCellHeightDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF81251E1F7CEE1700BA56C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8125301F7CEE1700BA56C4 /* LaunchScreen.storyboard in Resources */,
+				CF81252D1F7CEE1700BA56C4 /* Assets.xcassets in Resources */,
+				CF81252B1F7CEE1700BA56C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF81251C1F7CEE1700BA56C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8125281F7CEE1700BA56C4 /* ViewController.m in Sources */,
+				CF8125331F7CEE1700BA56C4 /* main.m in Sources */,
+				CF8125251F7CEE1700BA56C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF8125291F7CEE1700BA56C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF81252A1F7CEE1700BA56C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF81252E1F7CEE1700BA56C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF81252F1F7CEE1700BA56C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8125341F7CEE1700BA56C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF8125351F7CEE1700BA56C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8125371F7CEE1700BA56C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatCellHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = custom.CalculatCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8125381F7CEE1700BA56C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatCellHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = custom.CalculatCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF81251B1F7CEE1700BA56C4 /* Build configuration list for PBXProject "CalculatCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8125341F7CEE1700BA56C4 /* Debug */,
+				CF8125351F7CEE1700BA56C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8125361F7CEE1700BA56C4 /* Build configuration list for PBXNativeTarget "CalculatCellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8125371F7CEE1700BA56C4 /* Debug */,
+				CF8125381F7CEE1700BA56C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8125181F7CEE1700BA56C4 /* Project object */;
+}
