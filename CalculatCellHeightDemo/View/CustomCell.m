@@ -46,6 +46,9 @@ static CGFloat CustomCellHeight;//定义一个静态全局变量存取cell的高
     self.backView.layer.shadowRadius = 6.0;////阴影半径，默认3
     
     self.headImageView = [[UIImageView alloc] initWithFrame:CGRectMake(spaceOfContent, spaceOfContent, 30, 30)];
+    self.headImageView.layer.cornerRadius = 15;
+    self.headImageView.layer.borderColor = [UIColor orangeColor].CGColor;
+    self.headImageView.layer.borderWidth = 2;
     [self.backView addSubview:self.headImageView];
     
     self.nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.headImageView.right + 5, spaceOfHorizontal, self.backView.width - (self.headImageView.right + 5 - spaceOfContent), 20)];
